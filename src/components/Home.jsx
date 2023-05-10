@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "../assets/heroImage.png";
+import HeroImage from "../assets/img-4.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
@@ -16,7 +16,7 @@ const Home = () => {
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
             My name is Anvar Ganiyev I am Frontend developer and
-            I love to work on web application using technologies like HTML,CSS,Sass,Bootstrap,
+            I love to work on web application using technologies like HTML,CSS,Sss,Bootstrap,
             ReactJs,Redux and Tailwind Css.
           </p>
 
@@ -39,7 +39,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-2xl mx-auto w-full object-cover h-60 md:h-96 md:w-full"
           />
         </div>
       </div>
