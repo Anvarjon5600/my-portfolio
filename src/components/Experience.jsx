@@ -10,7 +10,14 @@ import typescript from '../assets/typescript.jpg'
 import redux from '../assets/redux.jpg'
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
-import material from '../assets/material.jpg'
+import material from '../assets/material.jpg';
+import jQuery from '../assets/jquery.png';
+import reactQuery from '../assets/reactQuery.png';
+import ajaxQuery from '../assets/ajaxQuery.png';
+import firebaseImg from '../assets/firebas.png';
+import gitImg from '../assets/gitimg.png';
+import nextJs from '../assets/next.webp';
+import vueJS from '../assets/v.png';
 
 const Experience = () => {
   const techs = [
@@ -46,46 +53,89 @@ const Experience = () => {
     },
     {
       id: 6,
+      src: jQuery,
+      title: "jQuery",
+      style: "shadow-gray-500",
+    },
+    {
+      id: 7,
+      src: ajaxQuery,
+      title: "Ajax",
+      style: "shadow-blue-500",
+    },
+    {
+      id: 8,
       src: reactImage,
       title: "React",
       style: "shadow-blue-600",
     },
     {
-      id: 7,
+      id: 9,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-400",
     },
     {
-      id: 8,
+      id: 10,
       src: typescript,
       title: "TypeScript",
       style: "shadow-sky-700",
     },
     {
-      id: 10,
+      id: 12,
       src: redux,
       title: "Redux",
       style: "shadow-purple-700",
     },
     {
-      id: 11,
+      id: 13,
+      src: reactQuery,
+      title: "React Query",
+      style: "shadow-red-500",
+    },
+    {
+      id: 14,
       src: material,
       title: "Material UI",
       style: "shadow-sky-900",
     },
     {
-      id: 9,
+      id: 15,
+      src: gitImg,
+      title: "Git",
+      style: "shadow-red-800",
+    },
+    {
+      id: 16,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
+    },
+    {
+      id: 17,
+      src: firebaseImg,
+      title: "Firebase",
+      style: "shadow-orange-400",
+    },
+    {
+      id: 18,
+      src: nextJs,
+      title: "Next Js",
+      style: "shadow-blue-300",
+    },
+    {
+      id: 19,
+      src: vueJS,
+      title: "Vue Js base",
+      style: "shadow-green-400",
     },
   ];
 
   return (
     <div
       name="experience"
-      className="py-24 bg-gradient-to-b from-gray-800  to-black w-full"
+      // className="py-24 bg-gradient-to-b from-gray-800  to-black w-full"
+      className="py-24 bg-gradient-to-b from-black to-gray-800 w-full text-white"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>

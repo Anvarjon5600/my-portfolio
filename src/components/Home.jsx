@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "../assets/img-4.jpg";
+import HeroImage from "../assets/img-6.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
@@ -15,9 +15,7 @@ const Home = () => {
             I'm a Frontend Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            My name is Anvar Ganiyev I am Frontend developer and
-            I love to work on web application using technologies like HTML,CSS,Sss,Bootstrap,
-            ReactJs,Redux and Tailwind Css.
+          Hello, my name is Anvar Ganiyev and I am a Frontend developer. I have been working as a JavaScript developer at "Algorithm Consulting Group" for 6 months. I am proficient in HTML, CSS, Sass, Bootstrap, GSAP, JavaScript, jQuery, TypeScript, Ajax, React JS, Redux, RTK Query, React Query, MaterialUI,Tailwind Css, HeadlessUI, ReactBootstrap, Firebase, Git, GitHub, NextJs, and VueJs base. I am also constantly learning new technologies and aspiring to become a strong frontend developer in the future.
           </p>
 
           <div>
@@ -35,7 +33,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div>
+        <div className="w-96">
           <img
             src={HeroImage}
             alt="my profile"
